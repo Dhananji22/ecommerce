@@ -1,0 +1,35 @@
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.product__image {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.product__title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product__description {
+    font-size: 14px;
+    color: #777;
+}
+
+.product__price {
+    font-size: 22px;
+    color: #28a745;
+    margin: 10px 0;
+}
+
+.product__reviews {
+    font-size: 14px;
+    color: #888;
+}

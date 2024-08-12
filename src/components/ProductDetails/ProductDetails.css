@@ -1,0 +1,77 @@
+/* General styling for the product detail container */
+.product-detail {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the product image */
+.product-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the product name */
+.product-detail h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Styling for the product description */
+.product-detail p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Styling for the product information section */
+.product-info {
+    margin-bottom: 20px;
+}
+
+.product-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Styling for the quantity label and select box */
+label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+/* Styling for the add-to-cart button */
+.add-to-cart {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
